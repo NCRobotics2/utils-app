@@ -16,7 +16,7 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-"ios": {
+    "ios": {
       "supportsTablet": true,
       "infoPlist": {
         "NSContactsUsageDescription": "This app requires access to contacts."
@@ -27,6 +27,11 @@
         "READ_CONTACTS",
         "WRITE_CONTACTS"
       ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9a1b4dfe-aac0-41d1-9fdf-433f29ef062d"
+      }
     }
   }
 }
